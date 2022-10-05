@@ -1,7 +1,44 @@
-body 
-{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Ubuntu&display=swap');
+
+body {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
 }
-a {
-    color: aqua;
+
+#title {
+    float: left;
+    font-size: 300%;
+    margin-left: 25px;
+    line-height: 20px;
+    
+}
+
+h1, h2 {
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 75px;
+}
+
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
