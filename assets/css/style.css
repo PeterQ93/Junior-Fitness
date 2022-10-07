@@ -6,19 +6,24 @@ body {
     color: #3a3a3a;
 }
 
-#title {
-    float: left;
-    font-size: 300%;
-    margin-left: 25px;
-    line-height: 20px;
-    
-}
+/* headings */
 
 h1, h2 {
     font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+}
+
+/*Navigation Links */
+
+#title {
+    float: left;
+    font-size: 300%;
+    margin-left: 25px;
+    line-height: 20px;
+    
+    
 }
 
 #menu {
@@ -31,7 +36,8 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 70px;
+    
 }
 
 #menu a {
@@ -41,4 +47,35 @@ h1, h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Homepage image */
+
+#homepage-image {
+            
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(100,149,237);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
