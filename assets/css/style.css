@@ -79,3 +79,32 @@ img {
 
     position: absolute;
 }
+
+/* Footer styling*/
+
+footer {
+
+	background-color: #252525;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > span {
+	color: 	#F8F8FF;
+}
+
+footer > a {
+	color: #F8F8FF;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 1.2rem;
+}
+
+footer > p {
+	color: #F8F8FF;
+}
