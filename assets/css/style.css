@@ -15,16 +15,25 @@ h1, h2 {
     color: #252525;
 }
 
+.head-align {
+    padding: 0.5vh 0;
+    text-align: center;
+    display: flex;  
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 /*Navigation Links */
 
 #title {
     float: left;
     font-size: 300%;
-    margin-left: 25px;
-    line-height: 20px;
+    margin-left: 10px;
+    line-height: 15px;
     
     
 }
+
 
 #menu {
     font-size: 110%;
@@ -81,6 +90,26 @@ img {
     right: 150px;
 
     position: absolute;
+}
+
+/*club ethos */
+
+.club-ethos {
+    padding: 12vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@media (min-width: 40rem) {
+    .club-ethos {
+        flex-direction: row;
+    }
+}
+
+.club-points {
+     flex-basis: 30%;
 }
 
 /* Footer styling*/
