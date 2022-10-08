@@ -52,7 +52,10 @@ h1, h2 {
 /* Homepage image */
 
 #homepage-image {
-            
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 img {
