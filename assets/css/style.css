@@ -112,6 +112,40 @@ img {
      flex-basis: 30%;
 }
 
+/*classes page styling */
+
+.columns {
+    display: flex;
+    align-items: left;
+    gap: 1rem;
+    border: 10px solid;
+    flex-direction: column;
+}
+
+#yoga {
+    background-color: rgba(100,149,237);
+}
+
+#swimming {
+    background-color: #ADFF2F;
+}
+
+#soccer {
+    background-color:  rgba(100,149,237);
+}
+
+#running {
+    background-color: #ADFF2F;
+}
+
+#basketball {
+    background-color: rgba(100,149,237);
+} 
+
+#playdate {
+    background-color: #ADFF2F;
+}
+
 /* Footer styling*/
 
 footer {
