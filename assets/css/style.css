@@ -159,12 +159,47 @@ img {
     justify-content: center;
 }
 
-form {
-    width: 90%;
-    max-width: 600px;
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+
 }
 
+.signup-form {
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width:600px;
+    width: 90%;
+    padding:30px;
+}
 
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid ;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+form h2 {
+    color:#fff;
+    margin-bottom: 15px;
+
+}
+
+button {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointed;
+}
 /* Footer styling*/
 
 footer {
