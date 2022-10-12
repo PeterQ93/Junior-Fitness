@@ -17,33 +17,32 @@ h1, h2 {
 
 .head-align {
     padding: 0.5vh 0;
-    text-align: center;
     display: flex;  
     justify-content: space-around;
     flex-direction: row;
+    align-items: center;
 }
 
-/*Navigation Links */
+/*Navigation Links*/
 
 #title {
-    float: left;
     font-size: 300%;
     margin-left: 10px;
     line-height: 15px;
-    
-    
+    float: left;
 }
-
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 75px;
+    display: flex;
+    text-decoration: none;
 }
 
 
 #menu li {
-    float: right;
+
     list-style-type: none;
     margin-right: 70px;
     
@@ -167,7 +166,7 @@ img {
 }
 
 .signup-form {
-    margin:150px 10% 0 0;
+    margin:50px 10% 90px 0;
     color:#fff;
     background-color:rgba(60, 60, 60, 0.6);
     max-width:600px;
