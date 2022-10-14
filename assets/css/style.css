@@ -239,4 +239,14 @@ footer > p {
     #title {
         font-size: 150%;
     }
+    
+    .head-align {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
 }
+
