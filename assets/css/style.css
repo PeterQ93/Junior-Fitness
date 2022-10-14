@@ -30,6 +30,7 @@ h1, h2 {
     margin-left: 10px;
     line-height: 15px;
     float: left;
+    
 }
 
 #menu {
@@ -101,7 +102,7 @@ img {
     flex-direction: column;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 640px) {
     .club-ethos {
         flex-direction: row;
     }
@@ -226,4 +227,16 @@ footer > a {
 
 footer > p {
 	color: #F8F8FF;
+}
+
+/* Media Queries */
+
+@media screen and  (max-width: 12000px) {
+    
+}
+
+@media screen and (max-width: 950px) {
+    #title {
+        font-size: 150%;
+    }
 }
