@@ -119,7 +119,7 @@ img {
 }
 
 /*classes page styling */
-
+/* 
 .columns {
     display: flex;
     align-items: left;
@@ -127,29 +127,47 @@ img {
     border: 10px solid;
     flex-direction: column;
 }
-
+*/
 #yoga {
-    background-color: rgba(100,149,237);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
 }
 
 #swimming {
-    background-color: #ADFF2F;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
 }
 
 #soccer {
-    background-color:  rgba(100,149,237);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
 }
 
 #running {
-    background-color: #ADFF2F;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
 }
 
 #basketball {
-    background-color: rgba(100,149,237);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
 } 
 
 #playdate {
-    background-color: #ADFF2F;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
 }
 
 /*Contact page styling */
