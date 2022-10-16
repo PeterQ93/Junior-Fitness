@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Ubuntu&display=swap');
 
+* {
+    margin: 0;
+}
+
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
@@ -45,7 +49,7 @@ h1, h2 {
 #menu li {
 
     list-style-type: none;
-    margin-right: 70px;
+    padding: 0 1.3rem 0 0;
     
 }
 
@@ -60,11 +64,12 @@ h1, h2 {
 
 /* Homepage image */
 
-#homepage-image {
+#homepage-image img {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
+
 }
 
 img {
@@ -81,12 +86,13 @@ img {
     width: 300px;
     height: 200px;
 
+
     padding-top: 40px;
     padding-left: 10px;
 
     background-color: rgba(100,149,237);
 
-    bottom: 30px;
+    bottom: 300px;
     right: 150px;
 
     position: absolute;
@@ -247,6 +253,29 @@ footer > p {
         justify-content: space-around;
     }
 
+    #cover-text {
+        position: absolute;
+        right: 16px;
+        height: 200px;
+        width: 200px;
+    
+    }
+
+    #homepage-image img {
+        height: 400px;
+    }
+    
     
 }
 
+@media screen and (max-width: 500px) {
+    
+    #cover-text {
+        position: absolute;
+        bottom: 150px;
+        right: 50px;
+        width: 200PX;
+        height: 200px;
+    }
+
+}
