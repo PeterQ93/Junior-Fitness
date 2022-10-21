@@ -32,23 +32,23 @@
     </header>
 
     <section class="hero">
-      <form class="signup-form">
+      <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net">
         <h2>Sign your kids up!</h2>
         <div class="input-group">
             <label for="name">Your Name <i class="fa-solid fa-user"></i></label>
-            <input type="text" id="name" required>
+            <input type="text" id="name" name="full_name" required>
         </div>
         <div class="input-group">
             <label for="number">Phone No. <i class="fa-solid fa-phone"></i></label>
-            <input type="text" id="number" required>
+            <input type="text" id="number" name="number" required>
         </div>
         <div class="input-group">
             <label for="email">Email <i class="fa-solid fa-envelope"></i></label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" name="email_address" required>
         </div>
         <div class="input-group">
             <label for="message">Your Message <i class="fa-regular fa-comment"></i></label>
-            <textarea id="message" rows="8"></textarea>
+            <textarea id="message" rows="8" name="message"></textarea>
         </div>
         <button type="submit">SUBMIT <i class="fa-solid fa-truck-fast"></i></button>
       </form>

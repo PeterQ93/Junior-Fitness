@@ -3,6 +3,8 @@
  
  Junior Fitness is a website which offers fitness classes for kids in Wexford, Ireland. We offer a wide range of classes which will build friendship, fitness and character in young kids. The site will target parents who would want there kids to socialise and try different sports.
 
+
+![Website Screenshot](assets/images/homepage-screenshot.png)
 ​
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -101,3 +103,6 @@ You  can find the live site via the following URL - [live webpage](https://youru
   
 ### **Media:**
 ​
+
+
+[def]: ..assets
