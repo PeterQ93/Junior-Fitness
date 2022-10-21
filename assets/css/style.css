@@ -92,7 +92,7 @@ img {
 
     background-color: rgba(100,149,237);
 
-    bottom: 300px;
+    top: 300px;
     right: 150px;
 
     position: absolute;
@@ -136,6 +136,8 @@ img {
 
 .columns img {
     border-radius: 5px 5px 0 0;
+    height: 200px;
+    width: 100%;
 }
 
 .container {
@@ -171,6 +173,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
