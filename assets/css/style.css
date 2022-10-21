@@ -84,7 +84,7 @@ img {
     letter-spacing: 4px;
 
     width: 300px;
-    height: 200px;
+    height: 130px;
 
 
     padding-top: 40px;
@@ -93,7 +93,7 @@ img {
     background-color: rgba(100,149,237);
 
     top: 300px;
-    right: 150px;
+    right: 50px;
 
     position: absolute;
 }
@@ -108,11 +108,13 @@ img {
     flex-direction: column;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 792px) {
     .club-ethos {
         flex-direction: row;
     }
 }
+
+
 
 .club-points {
      flex-basis: 30%;
