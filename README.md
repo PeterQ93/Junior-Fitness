@@ -46,11 +46,17 @@
 We have a simple and easy to follow website to see all our classes and playdates.
 
 
-### **Wireframes:**
-
 ​
 ### **Color Scheme:**
-
+The color scheme implemented throughout the site is a mixture between:
+- #252525 for h1 and h2
+- #fff for footer font colour
+- #252525 for footer background colour
+- #3a3a3a for the body
+- #fff for the text in the form
+- rgba(60, 60, 60, 0.6) for the background in the form
+- #252525 for the headings and border in the classes page
+- rgba(0,0,0,0.2) for the hover on the cards on classes page
  
 ​
 ## **Typography**
