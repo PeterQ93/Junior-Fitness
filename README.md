@@ -10,7 +10,6 @@
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
-    * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
@@ -36,22 +35,23 @@
     * [**Media**](#media)
 ​
 ## **Planning stage**
-### **Target Audiences:**
-​
 
-​
-### **User Stories:**
+
+### **Target Audiences:**
+​Looking to target parents and children.
 ​
 ​
 ### **Site Aims:**
-​
+​Junior Fitness aims to bring a range of fitness classes to kids.
+We have a simple and easy to follow website to see all our classes and playdates.
+
 
 ### **Wireframes:**
 
 ​
 ### **Color Scheme:**
-​
- here
+
+ 
 ​
 ## **Typography**
 ​

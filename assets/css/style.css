@@ -299,6 +299,10 @@ footer > p {
         height: 200px;
     }
 
+    footer > a {
+        font-size: 1.1rem;
+        padding: 0 5px;
+    }
 }
 
 @media screen and (max-width: 560px) {
