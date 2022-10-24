@@ -15,7 +15,7 @@
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    * [***Header Element:***](#header-element)
+    * [***Navigation Bar:***](#navigation-bar)
     * [***The rest of your features***](#features)
     * [**Footer**](#footer)
 1. [**Individual Page Content features**](#individual-page-content-features)
@@ -37,17 +37,17 @@
 ## **Planning stage**
 
 
-### **Target Audiences:**
+### **Target Audiences**
 ​Looking to target parents and children.
 ​
 ​
-### **Site Aims:**
+### **Site Aims**
 ​Junior Fitness aims to bring a range of fitness classes to kids.
 We have a simple and easy to follow website to see all our classes and playdates.
 
 
 ​
-### **Color Scheme:**
+### **Color Scheme**
 The color scheme implemented throughout the site is a mixture between:
 - #252525 for h1 and h2
 - #fff for footer font colour
@@ -57,6 +57,8 @@ The color scheme implemented throughout the site is a mixture between:
 - rgba(60, 60, 60, 0.6) for the background in the form
 - #252525 for the headings and border in the classes page
 - rgba(0,0,0,0.2) for the hover on the cards on classes page
+
+All colours have been implemented to compliment each other and be aesthetically pleasing.
  
 ​
 ## **Typography**
@@ -64,12 +66,20 @@ The color scheme implemented throughout the site is a mixture between:
 
 ​
 ## **Current Features Common to all pages**
-​
-#### *Navigation Bar:*
+- Navigation bar is the same on each page
+- Footer is the same on each page
 
 ​
-#### *features
+## **Navigation Bar**
+- Contains the title for the webpage with the link to homepage built in all on the left handside of the page
+- Has 3 pages all on the right hand side of the page with built in links to each page
+
 ​
+## **Features**
+​
+
+## **Footer**
+
 
 ​
 ## **Future-Enhancements**
