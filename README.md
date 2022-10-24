@@ -76,7 +76,30 @@ All colours have been implemented to compliment each other and be aesthetically 
 
 ​
 ## **Features**
-​
+- Homepage 
+  - Homepage at the start of the page with appropriate alt tag
+  - Inside the image is a text box with a h2 and h3 heading#
+  - Below is 4 divs containing info as to why you should pick this page
+  - 4 divs are aligned using flexbox and the font colour and background contrast with the page
+
+- Contact Page
+  - Page centers around a form to sign your kids up to classes
+  - The form wants 4 inputs Name, Email, Phone and a Message for additonal information
+  - At the bottom of the form there is a submit button to send your info it goes to a link from Code Institute and returns to you the info you just typed in
+  - Behind the form there is a picture which takes up the background it is blurred to contrast well with the form on the page
+  - The 4 inputs and sumbit buttons are all styled with some font awesome icons
+  - The form is positioned in the middle of the page using flex and align-items
+
+- Classes Page
+  - We have 6 cards with classes displayed 
+  - They are split up into 2 divs with 3 divs inside each
+  - They are aligned using flex 
+  - Inside the cards at the top is an image of the class example, under it is a h2 for the class and then we have details of the class inside an unordered list
+  - All headings within the cards are centered in the div
+  - Inside the list is the day, time and location of the activities
+  - Wrapped around the cards is a border which fits inline with the colour contrast for the page
+   
+
 
 ## **Footer**
 
