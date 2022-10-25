@@ -4,7 +4,7 @@
  Junior Fitness is a website which offers fitness classes for kids in Wexford, Ireland. We offer a wide range of classes which will build friendship, fitness and character in young kids. The site will target parents who would want there kids to socialise and try different sports.
 
 
-![Website Screenshot](assets/images/homepage-screenshot.png)
+![Website Screenshot](assets/images/hompage-screenshot.png)
 ​
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -18,22 +18,11 @@
     * [***Navigation Bar:***](#navigation-bar)
     * [***The rest of your features***](#features)
     * [**Footer**](#footer)
-1. [**Individual Page Content features**](#individual-page-content-features)
-    * [**About Page Content**](#about-page-content)
-    * [**Teachings Page Content**](#teachings-page-content)
-    * [**Community Page Content**](#community-page-content)
-    * [**Contact Page Content**](#contact-page-content)
-    * [**Form Feedback Page Content**](#form-feedback-page-content)
-1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
 1. [**Tech**](#tech)
 1. [**Credits**](#credits)
-    * [**Honorable mentions**](#honorable-mentions)
-    * [**General reference**](#general-reference)
-    * [**Content**](#content)
-    * [**Media**](#media)
-​
+   
 ## **Planning stage**
 
 
@@ -82,6 +71,8 @@ All colours have been implemented to compliment each other and be aesthetically 
   - Below is 4 divs containing info as to why you should pick this page
   - 4 divs are aligned using flexbox and the font colour and background contrast with the page
 
+![Homepage Features](assets/images/homepage-features.png)
+
 - Contact Page
   - Page centers around a form to sign your kids up to classes
   - The form wants 4 inputs Name, Email, Phone and a Message for additonal information
@@ -89,6 +80,8 @@ All colours have been implemented to compliment each other and be aesthetically 
   - Behind the form there is a picture which takes up the background it is blurred to contrast well with the form on the page
   - The 4 inputs and sumbit buttons are all styled with some font awesome icons
   - The form is positioned in the middle of the page using flex and align-items
+
+  ![Contact Features](assets/images/signup-features.png)
 
 - Classes Page
   - We have 6 cards with classes displayed 
@@ -99,18 +92,34 @@ All colours have been implemented to compliment each other and be aesthetically 
   - Inside the list is the day, time and location of the activities
   - Wrapped around the cards is a border which fits inline with the colour contrast for the page
    
+   ![Classes Features](assets/images/classes-features.png)
 
 
 ## **Footer**
+- The footer is a solid #252525 bar which is constant on every page
+- It has the social media links for the website
+- They are centered in the middle of the screen with a text colour of #F8F8FF
 
+ ![Nav Bar](assets/images/nav-bar.png)
 
-​
-## **Future-Enhancements**
-​
-A
 ​
 ## **Testing Phase**
-​
+- I tested all 3 html documents using the W3C validator
+  - Index.html
+  - There was only one fail on the html validator which applied to the header on all 3 of the pages i forgot to put ul on the unordered list i only had u
+
+![Homepage Test](assets/images/homepage-test.png)
+
+  - Contact.html
+
+![Contact Test](assets/images/contact-test.png)
+
+  - Classes.html
+
+​![Classes Test](assets/images/classes-test.png)
+
+
+
 
 ​
 ​
@@ -130,17 +139,13 @@ I deployed the page on GitHub pages via the following procedure: -
 You  can find the live site via the following URL - [live webpage](https://yoururlhere)
 ***
 ​
-## **Tech**
 
 ​
 ## **Credits**
-### **Honorable mentions**
-​
-### **Content:**
+
 ​
 
-  
-### **Media:**
+​
 ​
 
 
