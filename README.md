@@ -10,14 +10,15 @@
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
-    * [***Typography**](#typography)
+    * [***Typography***](#typography)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
     * [***Navigation Bar***](#navigation-bar)
-    * [***The rest of your features***](#features)
-    * [**Footer**](#footer)
+    * [***Features***](#features)
+    * [***Footer***](#footer)
 1. [**Testing Phase**](#testing-phase)
 1. [**Bugs**](#bugs)
 1. [**Deployment**](#deployment)
@@ -28,11 +29,28 @@
 
 ### **Target Audiences**
 ​Looking to target parents and children.
+ 
+ - Parents looking to get some excercise for their kids 
+ - Parents wanting kids to experince different sports
+ - Parents looking to build character and friendship for there kids 
+
+### **User Stories** 
+
+ - As a user i want to know more about the group
+ - As a user i want to be able to get in contact 
+ - As a user i want to be able to see what classes available 
+ - As a user i want to see social media links
+ - As a user i want an easy to use navigation bar
 ​
 ​
 ### **Site Aims**
 ​Junior Fitness aims to bring a range of fitness classes to kids.
 We have a simple and easy to follow website to see all our classes and playdates.
+
+- Inform parents of fitness classes for kids 
+- Simple and easy to use interface 
+- Ability to get in contact 
+- Ability to show classes available 
 
 
 ​
@@ -51,6 +69,11 @@ All colours have been implemented to compliment each other and be aesthetically 
  
 ​
 ## **Typography**
+
+In the making of this website i used two font styles i taught complimented each other and the layout of the website.
+
+- Ubuntu
+- Oswald
 ​
 
 ​
@@ -61,6 +84,7 @@ All colours have been implemented to compliment each other and be aesthetically 
 ​
 ## **Navigation Bar**
 - Contains the title for the webpage with the link to homepage built in all on the left handside of the page
+- If you hover over either of the three pages on the right it will underline the one you are hovering on
 - Has 3 pages all on the right hand side of the page with built in links to each page
 
 ​
@@ -91,6 +115,7 @@ All colours have been implemented to compliment each other and be aesthetically 
   - All headings within the cards are centered in the div
   - Inside the list is the day, time and location of the activities
   - Wrapped around the cards is a border which fits inline with the colour contrast for the page
+  - If you hover over each card it will highlight it 
    
    ![Classes Features](assets/images/classes-features.png)
 
@@ -118,13 +143,32 @@ All colours have been implemented to compliment each other and be aesthetically 
 
 ​![Classes Test](assets/images/classes-test.png)
 
+  - CSS
+
+​![CSS Test](assets/images/css-validated.png)
 
 
-
-​
 ​
 ## **Bugs**
-​
+​Navigation Bar
+- I had float left and right on the nav bar but when i went down into smaller screen size they just collapsed onto each other
+- I fixed this by using flex to align them
+- The nav bar starts as a row but as it gets smaller it goes into a column
+
+Images
+- When i added all the images they were all very high quaility which made the website slow and preform bad on lighthouse
+- I went to a site called [Image Compressor](https://imagecompressor.com/) and resized all the images and the site has improved now
+- I had a size set for height on an image on the homepage and the images in the classes page but when i went to a smaller screen size then the pictures seemed to lose quality and stretch so i set the height to auto on each image
+
+Footer 
+- I found when i went to a smaller screen the text in the footer disapeared
+- To fix this i used a media querie fixing the size of the text and the padding between them to fit on the screen
+
+Contact Form
+- I found when i entered all the data in the form it returned nothing
+- To fix this i used the link we had in our Love Running sign up challenge
+
+
 
 ​
 ***
@@ -136,7 +180,7 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You can find the live site via the following URL - [Junior Fitness](https://peterq93.github.io/junior-fitness/classes.html)
+You can find the live site via the following URL - [Junior Fitness](https://peterq93.github.io/junior-fitness/index.html)
 ***
 ​
 

@@ -87,7 +87,7 @@ img {
     height: 130px;
 
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
     background-color: rgba(100,149,237);
@@ -138,7 +138,7 @@ img {
 
 .columns img {
     border-radius: 5px 5px 0 0;
-    height: 200px;
+    height: auto;
     width: 100%;
 }
 
@@ -226,7 +226,7 @@ button {
     background: transparent;
     border: 1px solid #fff;
     width: 100%;
-    cursor: pointed;
+    cursor: pointer;
 }
 /* Footer styling*/
 
@@ -259,9 +259,6 @@ footer > p {
 
 /* Media Queries */
 
-@media screen and  (max-width: 12000px) {
-    
-}
 
 @media screen and (max-width: 950px) {
     #title {
@@ -283,27 +280,10 @@ footer > p {
         font-size: 75%;
         top: 200px;
     }
-    
-    
+      
 }
 
-@media screen and (max-width: 500px) {
-    
-    #cover-text {
-        position: absolute;
-        right: 50px;
-        width: 200PX;
-        height: 100px;
-    }
-
-    footer > a {
-        font-size: 1.1rem;
-        padding: 0 5px;
-    }
-
-}
-
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 720px) {
     .flex-one {
        display: flex;
        flex-direction: column;
@@ -320,7 +300,23 @@ footer > p {
     .card {
         width: 100%;
     }
- 
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    #cover-text {
+        position: absolute;
+        right: 50px;
+        width: 200PX;
+        height: 100px;
+    }
+
+    footer > a {
+        font-size: 1rem;
+        padding: 0 2px;
+    }
+
+}
 
     
-}
