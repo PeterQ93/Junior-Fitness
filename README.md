@@ -168,6 +168,13 @@ Contact Form
 - I found when i entered all the data in the form it returned nothing
 - To fix this i used the link we had in our Love Running sign up challenge
 
+Validator 
+- When i ran the validator i had one error it was in the header in the unordered list 
+- I had forgot to put ul on the list i had only put u
+
+Classes 
+- When i had the 6 classes in first i had just 6 divs but i found when i used flexbox with them it did not fit in the screen right
+- To fix this i decided to add 2 more divs and split the first 6 divs into them i used flexbox to align them to fit nicely on the page
 
 
 ​
@@ -187,6 +194,14 @@ You can find the live site via the following URL - [Junior Fitness](https://pete
 ​
 ## **Credits**
 
+Navigation Bar
+- I credit the nav bar to the [Love Running Project](https://github.com/PeterQ93/love-running) i styled my one a bit different and aligned it using flexbox
+
+Homepage Image
+- I took inspiration from the [Love Running Project](https://github.com/PeterQ93/love-running) again for the homepage image i felt it suited well with the site
+
+Footer
+- For the footer i took inspiration from our lessons we done Coders Coffee House a project for coders who love coffee
 ​
 
 ​
