@@ -15,12 +15,12 @@
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    * [***Navigation Bar:***](#navigation-bar)
+    * [***Navigation Bar***](#navigation-bar)
     * [***The rest of your features***](#features)
     * [**Footer**](#footer)
 1. [**Testing Phase**](#testing-phase)
+1. [**Bugs**](#bugs)
 1. [**Deployment**](#deployment)
-1. [**Tech**](#tech)
 1. [**Credits**](#credits)
    
 ## **Planning stage**
@@ -136,7 +136,7 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+You can find the live site via the following URL - [Junior Fitness](https://peterq93.github.io/junior-fitness/classes.html)
 ***
 ​
 
@@ -147,6 +147,3 @@ You  can find the live site via the following URL - [live webpage](https://youru
 
 ​
 ​
-
-
-[def]: ..assets

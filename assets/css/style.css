@@ -65,7 +65,7 @@ h1, h2 {
 /* Homepage image */
 
 #homepage-image img {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -74,7 +74,7 @@ h1, h2 {
 
 img {
     max-width: 100%;
-    height:auto;
+    
 }
 
 #cover-text {
@@ -183,6 +183,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 3rem;
     
 }
 
@@ -194,7 +195,7 @@ img {
 }
 
 .signup-form {
-    margin:50px 10% 90px 0;
+   
     color:#fff;
     background-color:rgba(60, 60, 60, 0.6);
     max-width:600px;
@@ -276,14 +277,11 @@ footer > p {
 
     #cover-text {
         position: absolute;
-        right: 16px;
-        height: 200px;
+        right: 50px;
+        height: 100px;
         width: 200px;
-    
-    }
-
-    #homepage-image img {
-        height: 400px;
+        font-size: 75%;
+        top: 200px;
     }
     
     
@@ -293,16 +291,16 @@ footer > p {
     
     #cover-text {
         position: absolute;
-        bottom: 150px;
         right: 50px;
         width: 200PX;
-        height: 200px;
+        height: 100px;
     }
 
     footer > a {
         font-size: 1.1rem;
         padding: 0 5px;
     }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -322,5 +320,7 @@ footer > p {
     .card {
         width: 100%;
     }
+ 
 
+    
 }
