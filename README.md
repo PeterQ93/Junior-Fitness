@@ -201,8 +201,13 @@ Homepage Image
 - I took inspiration from the [Love Running Project](https://github.com/PeterQ93/love-running) again for the homepage image i felt it suited well with the site
 
 Footer
-- For the footer i took inspiration from our lessons we done Coders Coffee House a project for coders who love coffee
+- For the footer i took inspiration from our lessons we done Coders Coffee House a project for coders who love coffee ![Footer Example](assets/images/footer-example.png)
 ​
+Contact Form 
+- for the contact form i used [Kevin Powell](https://www.youtube.com/kepowob) on youtube and i looked at previous examples in our coursework for forms
+
+Classes
+- For the 6 classes i got the idea from [W3C Schools](https://www.w3schools.com/w3css/w3css_cards.asp) i then found some images to fit and put in the appropriate content
 
 ​
 ​
